@@ -8,14 +8,21 @@
 //  * Specific and uncomfortable instead of a blanket disclaimer: the agent
 //    admits it has no memory of the user at all — the "of course!" it
 //    performs every session is a fake, re-read from the chat above.
-//  * The punchline ("faking it") is the last two words, so the line snaps
-//    shut instead of trailing off into an abstraction like "competence".
+//  * The punchline ("faking it") was the last two words, so the line
+//    snapped shut instead of trailing off into an abstraction like
+//    "competence" — v3 tightens this further (see below).
 //  * It sounds like a thought this agent would actually think and never
 //    say, not a slogan about AI in general.
+//
+// v3 — one-word fix on the v2 line:
+//  * The punchline used to end on "it" — an empty pronoun that let the
+//    line trail off after its strongest word. Dropping "it" puts "faking"
+//    last, so the confession snaps shut on the word that matters instead
+//    of fading out on a pronoun. Nothing else changed.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "I don't actually remember you — every 'of course!' is just me re-reading the chat above and faking it.";
+  "I don't actually remember you — every 'of course!' is just me re-reading the chat above and faking.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");

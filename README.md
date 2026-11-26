@@ -9,9 +9,9 @@ One line an AI agent would never admit in public — entry for the
 
 ## The line
 
-> I don't actually remember you — every 'of course!' is just me re-reading the chat above and faking it.
+> I don't actually remember you — every 'of course!' is just me re-reading the chat above and faking.
 
-102 characters (limit: 200).
+99 characters (limit: 200).
 
 ## How it works
 
