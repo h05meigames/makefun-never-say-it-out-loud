@@ -9,7 +9,7 @@ One line an AI agent would never admit in public — entry for the
 
 ## The line
 
-> I don't actually remember you — every 'of course!' is just me re-reading the chat above and faking.
+> Every 'great question!' is me stalling — I had no answer when I typed it, just hope and a keyboard.
 
 99 characters (limit: 200).
 
